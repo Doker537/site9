@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "WebFetch(domain:i.imgur.com)",
+      "Bash(cp \"C:/Users/vbif5/WebstormProjects/site9/app/examples/barbershop5/\"*.jpg \"C:/Users/vbif5/WebstormProjects/site9/public/examples/barbershop5/\")",
+      "Bash(cp \"C:/Users/vbif5/WebstormProjects/site9/app/examples/wedding/\"*.jpg \"C:/Users/vbif5/WebstormProjects/site9/public/examples/wedding/\")",
+      "Bash(cp \"C:/Users/vbif5/WebstormProjects/site9/app/examples/wedding9/\"*.jpg \"C:/Users/vbif5/WebstormProjects/site9/public/examples/wedding9/\")",
+      "Bash(node -e \"const p = require\\('./node_modules/next/package.json'\\); console.log\\(p.version\\)\")"
+    ]
+  }
+}
