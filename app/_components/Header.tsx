@@ -5,18 +5,28 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const navLinks = [
-  { href: "/", label: "Главная" },
-  { href: "/portfolio", label: "Портфолио" },
-  { href: "/services", label: "Услуги" },
+  { href: "#services", label: "Услуги" },
+  { href: "#portfolio", label: "Портфолио" },
+  { href: "#about", label: "О нас" },
+  { href: "#contact", label: "Контакты" },
 ];
 
 export default function Header() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const isLanding = pathname === "/";
+
+  const handleNav = (href: string) => {
+    setMenuOpen(false);
+    if (isLanding && href.startsWith("#")) {
+      document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
-      <div className="mx-auto mt-4 max-w-5xl px-4">
+      <div className="mx-auto mt-4 max-w-6xl px-4">
         <div className="flex h-14 items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-6 backdrop-blur-xl shadow-[0_4px_24px_rgba(0,0,0,0.4)]">
           <Link href="/" className="text-xl font-bold tracking-tight">
             <span className="text-yellow-400">Chare</span>X
@@ -24,15 +34,19 @@ export default function Header() {
 
           <nav className="hidden gap-8 md:flex">
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.href}
-                href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-yellow-400 ${
-                  pathname === link.href ? "text-yellow-400" : "text-zinc-400"
-                }`}
+                href={isLanding ? link.href : `/${link.href}`}
+                onClick={(e) => {
+                  if (isLanding && link.href.startsWith("#")) {
+                    e.preventDefault();
+                    handleNav(link.href);
+                  }
+                }}
+                className="nav-link text-sm font-medium text-zinc-400 transition-colors hover:text-white"
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
           </nav>
 
@@ -40,7 +54,7 @@ export default function Header() {
             href="https://t.me/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden rounded-full bg-yellow-400 px-4 py-2 text-sm font-medium text-black transition-all hover:bg-yellow-300 hover:shadow-lg hover:shadow-yellow-400/20 md:block"
+            className="hidden whitespace-nowrap rounded-full bg-yellow-400 px-4 py-2 text-sm font-semibold text-black transition-all hover:bg-yellow-300 hover:shadow-lg hover:shadow-yellow-400/20 md:block"
           >
             Сделать заказ
           </a>
@@ -59,22 +73,25 @@ export default function Header() {
         {menuOpen && (
           <div className="mt-2 flex flex-col gap-4 rounded-2xl border border-white/10 bg-white/5 px-6 py-6 backdrop-blur-xl md:hidden">
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.href}
-                href={link.href}
-                onClick={() => setMenuOpen(false)}
-                className={`text-base font-medium transition-colors hover:text-yellow-400 ${
-                  pathname === link.href ? "text-yellow-400" : "text-zinc-400"
-                }`}
+                href={isLanding ? link.href : `/${link.href}`}
+                onClick={(e) => {
+                  if (isLanding && link.href.startsWith("#")) {
+                    e.preventDefault();
+                    handleNav(link.href);
+                  }
+                }}
+                className="text-base font-medium text-zinc-400 transition-colors hover:text-yellow-400"
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
             <a
               href="https://t.me/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full rounded-full bg-yellow-400 px-4 py-2 text-center text-sm font-medium text-black"
+              className="w-full rounded-full bg-yellow-400 px-4 py-2 text-center text-sm font-semibold text-black"
             >
               Сделать заказ
             </a>

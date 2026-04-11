@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  font-size: 105%;
+}
+
 :root {
   --background: #08080d;
   --foreground: #ededed;
@@ -18,4 +22,121 @@ body {
 
 ::selection {
   background: rgba(250, 204, 21, 0.25);
+}
+
+/* ── Hero grid background ── */
+.hero-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(250, 204, 21, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(250, 204, 21, 0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 50%, black 20%, transparent 100%);
+  pointer-events: none;
+}
+
+/* ── Floating card animations ── */
+@keyframes cardFloat1 {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+@keyframes cardFloat2 {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-7px); }
+}
+@keyframes cardFloat3 {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+.animate-float-1 { animation: cardFloat1 6s ease-in-out infinite; }
+.animate-float-2 { animation: cardFloat2 7s ease-in-out 1s infinite; }
+.animate-float-3 { animation: cardFloat3 5s ease-in-out 0.5s infinite; }
+
+/* ── Green pulse (badge dot) ── */
+@keyframes pulse-green {
+  0%, 100% { opacity: 1; transform: scale(1); box-shadow: 0 0 0 0 rgba(109, 255, 179, 0.5); }
+  50% { opacity: 0.7; transform: scale(0.85); box-shadow: 0 0 0 5px rgba(109, 255, 179, 0); }
+}
+.animate-pulse-green {
+  animation: pulse-green 2s ease-in-out infinite;
+}
+
+/* ── Button arrow slide ── */
+.btn-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: gap 0.2s ease;
+}
+.btn-arrow svg {
+  transition: transform 0.2s ease;
+}
+.btn-arrow:hover svg {
+  transform: translateX(4px);
+}
+
+/* ── Service card color accents (via CSS custom property) ── */
+.service-card-accent::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--sc-color, #facc15);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  border-radius: 999px 999px 0 0;
+}
+.service-card-accent:hover::before {
+  opacity: 1;
+}
+
+/* ── Anchor scroll offset (fixed header) ── */
+[id] {
+  scroll-margin-top: 80px;
+}
+
+/* ── Nav link underline slide (like site15) ── */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #facc15, #f59e0b);
+  border-radius: 2px;
+  transition: width 0.25s ease;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* ── Discount badge wiggle (rotate only — scale handled by framer-motion parent) ── */
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-2deg); }
+  25% { transform: rotate(3deg); }
+  75% { transform: rotate(-3deg); }
+}
+.animate-wiggle {
+  animation: wiggle 2.8s ease-in-out infinite;
+}
+
+/* ── Case card hover bar ── */
+.case-card-accent::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--cc-color, #facc15);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  border-radius: 999px 999px 0 0;
+}
+.case-card-accent:hover::before {
+  transform: scaleX(1);
 }
