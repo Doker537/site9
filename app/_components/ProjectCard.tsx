@@ -24,8 +24,8 @@ export default function ProjectCard({ project }: { project: Project }) {
             className="object-cover transition-transform duration-500 group-hover:scale-105"
             sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/5 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/15 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-br from-yellow-400/5 to-transparent" />
         </div>
 
         {/* Tags overlay on image */}

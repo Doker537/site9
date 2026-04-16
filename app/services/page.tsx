@@ -107,7 +107,7 @@ export default function ServicesPage() {
                 onMouseLeave={() => setActive(null)}
               >
                 {/* Popular badge */}
-                <div className="absolute right-6 top-6 rounded-full bg-gradient-to-r from-yellow-400 to-amber-500 px-3 py-1 text-[0.65rem] font-black uppercase tracking-wide text-black">
+                <div className="absolute right-6 top-6 rounded-full bg-linear-to-r from-yellow-400 to-amber-500 px-3 py-1 text-[0.65rem] font-black uppercase tracking-wide text-black">
                   Популярно
                 </div>
 
