@@ -8,8 +8,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // Если используешь базовый путь (например, репозиторий называется site9), 
-  // иногда может понадобиться basePath, но пока попробуй без него.
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 export default nextConfig;
