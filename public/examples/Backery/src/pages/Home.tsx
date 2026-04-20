@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="space-y-32 pb-32">
       {/* Hero */}
-      <section className="relative h-[90vh] flex items-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src="./images/hero-background.jpg"
