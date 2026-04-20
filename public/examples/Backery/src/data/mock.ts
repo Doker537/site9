@@ -29,7 +29,7 @@ export const PRODUCTS: Product[] = [
     category: 'macarons',
     description: 'Ассорти из 12 нежнейших макарун с авторскими начинками.',
     price: 1800,
-    image: './images/product-macarons1.jpg',
+    image: './images/portfolio-5.jpg',
     features: ['Подарочная упаковка', 'Свежее приготовление']
   },
   {
