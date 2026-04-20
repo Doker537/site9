@@ -14,7 +14,9 @@
       "Bash(xargs du *)",
       "Bash(sed -i \"s|'/images/|'./images/|g\" /c/Users/vbif5/WebstormProjects/site9/public/examples/Backery/src/data/mock.ts /c/Users/vbif5/WebstormProjects/site9/public/examples/Backery/src/pages/Portfolio.tsx)",
       "Bash(sed -i 's|`/images/|`./images/|g' /c/Users/vbif5/WebstormProjects/site9/public/examples/Backery/src/pages/About.tsx)",
-      "Bash(awk '{print $5, $9}')"
+      "Bash(awk '{print $5, $9}')",
+      "Bash(git -C /c/Users/vbif5/WebstormProjects/site9 status --short public/examples/)",
+      "Bash(git *)"
     ]
   }
 }
