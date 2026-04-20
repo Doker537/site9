@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(where node *)",
+      "Bash(where npm *)",
+      "Bash(where npx *)",
+      "Read(//mnt/c/Users/artem/WebstormProjects/**)",
+      "Bash(npm run *)",
+      "Bash(npm *)"
+    ]
+  }
+}

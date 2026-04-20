@@ -15,17 +15,44 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "10",
-    title: "Детейлинг-студия",
+    id: "13",
+    title: "Автосервис AutoPro",
     description:
-      "Премиальный лендинг для детейлинг-студии: плавные анимации, светящиеся эффекты и форма записи на услуги.",
+      "Профессиональный сайт для автосервиса: система онлайн-записи, каталог услуг и портфолио выполненных работ.",
     image: "/projects/placeholder.svg",
-    emoji: "🚗",
-    tags: ["React", "Tailwind CSS", "Framer"],
+    emoji: "🔧",
+    tags: ["React", "Tailwind CSS", "TypeScript"],
     category: "sites",
-    link: "/examples/Detailing/index.html",
-    color: "#00f0ff",
-    results: ["Форма онлайн-записи", "Глоу-эффекты", "Mobile-first"],
+    link: "/examples/AutoRepair/dist/index.html",
+    color: "#ef4444",
+    results: ["Онлайн-запись на ТО", "Каталог услуг", "Портфолио работ"],
+  },
+  {
+    id: "7",
+    title: "Сайт для барбершопа",
+    description:
+      "Стильный лендинг с прайс-листом, галереей работ и формой онлайн-записи.",
+    image:
+      "/examples/barbershop5/slpbi9k2xy0mPA_p3RbiL4n00anSIHAO48wsXKMp5P7EiUh53eyFMWNi0qRokX_aPsUJD16-ghyTei1usV84B4LH.jpg",
+    emoji: "✂️",
+    tags: ["HTML", "CSS", "JavaScript"],
+    category: "sites",
+    link: "/examples/barbershop5/index.html",
+    color: "#facc15",
+    results: ["+120% онлайн-записей", "Рост узнаваемости", "Скорость < 1 сек"],
+  },
+  {
+    id: "14",
+    title: "Кондитерская Dolce Vita",
+    description:
+      "Элегантный сайт для кондитерской на заказ: изысканный дизайн, галерея тортов и форма заказа.",
+    image: "/examples/Backery/public/images/about-chef.jpg",
+    emoji: "🎂",
+    tags: ["React", "Tailwind CSS", "TypeScript"],
+    category: "sites",
+    link: "/examples/Backery/dist/index.html",
+    color: "#f9a8d4",
+    results: ["Галерея работ", "Форма заказа", "Мобильная адаптация"],
   },
   {
     id: "11",
@@ -41,18 +68,17 @@ export const projects: Project[] = [
     results: ["Доверие с первого взгляда", "Форма консультации", "SEO-оптимизация"],
   },
   {
-    id: "7",
-    title: "Сайт для барбершопа",
+    id: "15",
+    title: "Бюро Экспертиз",
     description:
-      "Стильный лендинг с прайс-листом, галереей работ и формой онлайн-записи.",
-    image:
-      "/examples/barbershop5/slpbi9k2xy0mPA_p3RbiL4n00anSIHAO48wsXKMp5P7EiUh53eyFMWNi0qRokX_aPsUJD16-ghyTei1usV84B4LH.jpg",
-    emoji: "✂️",
-    tags: ["HTML", "CSS", "JavaScript"],
+      "Профессиональный сайт экспертной организации: судебные, строительные, автотехнические и оценочные экспертизы.",
+    image: "/projects/placeholder.svg",
+    emoji: "📋",
+    tags: ["React", "Tailwind CSS", "TypeScript"],
     category: "sites",
-    link: "/examples/barbershop5/index.html",
-    color: "#facc15",
-    results: ["+120% онлайн-записей", "Рост узнаваемости", "Скорость < 1 сек"],
+    link: "/examples/Example_site/dist/index.html",
+    color: "#64748b",
+    results: ["Все виды экспертиз", "Форма консультации", "Доверие с первого взгляда"],
   },
   {
     id: "8",
@@ -81,6 +107,19 @@ export const projects: Project[] = [
     link: "/examples/wedding9/index.html",
     color: "#c084fc",
     results: ["Нежная анимация", "Мобильная адаптация", "Форма RSVP"],
+  },
+  {
+    id: "10",
+    title: "Детейлинг-студия",
+    description:
+      "Премиальный лендинг для детейлинг-студии: плавные анимации, светящиеся эффекты и форма записи на услуги.",
+    image: "/projects/placeholder.svg",
+    emoji: "🚗",
+    tags: ["React", "Tailwind CSS", "Framer"],
+    category: "sites",
+    link: "/examples/Detailing/index.html",
+    color: "#00f0ff",
+    results: ["Форма онлайн-записи", "Глоу-эффекты", "Mobile-first"],
   },
   {
     id: "1",

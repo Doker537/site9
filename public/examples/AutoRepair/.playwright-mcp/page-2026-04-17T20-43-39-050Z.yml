@@ -1,0 +1,172 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "AUTOPRO" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e12]: AUTOPRO
+      - navigation [ref=e13]:
+        - link "Главная" [ref=e14] [cursor=pointer]:
+          - /url: /
+        - link "Услуги" [ref=e15] [cursor=pointer]:
+          - /url: /services
+        - link "О компании" [ref=e16] [cursor=pointer]:
+          - /url: /about
+        - link "Контакты" [ref=e17] [cursor=pointer]:
+          - /url: /contacts
+      - generic [ref=e18]:
+        - link "+7 (999) 123-45-67" [ref=e19] [cursor=pointer]:
+          - /url: tel:+79991234567
+          - img [ref=e20]
+          - generic [ref=e22]: +7 (999) 123-45-67
+        - link "Записаться" [ref=e23] [cursor=pointer]:
+          - /url: /contacts
+  - main [ref=e24]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - heading "Контакты" [level=1] [ref=e28]
+        - paragraph [ref=e29]: Мы всегда на связи и готовы помочь вашему автомобилю.
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - img [ref=e35]
+              - generic [ref=e37]:
+                - heading "Телефон" [level=4] [ref=e38]
+                - link "+7 (999) 123-45-67" [ref=e39] [cursor=pointer]:
+                  - /url: tel:+79991234567
+                - paragraph [ref=e40]: Прием звонков 9:00 - 21:00
+            - generic [ref=e41]:
+              - img [ref=e43]
+              - generic [ref=e46]:
+                - heading "E-mail" [level=4] [ref=e47]
+                - link "info@autopro-service.ru" [ref=e48] [cursor=pointer]:
+                  - /url: mailto:info@autopro-service.ru
+                - paragraph [ref=e49]: Для коммерческих предложений
+            - generic [ref=e50]:
+              - img [ref=e52]
+              - generic [ref=e55]:
+                - heading "Адрес" [level=4] [ref=e56]
+                - paragraph [ref=e57]: Москва, ул. Авторемонтная, 24
+                - paragraph [ref=e58]: БЦ 'Технопарк'
+            - generic [ref=e59]:
+              - img [ref=e61]
+              - generic [ref=e64]:
+                - heading "Режим работы" [level=4] [ref=e65]
+                - paragraph [ref=e66]: "Пн-Вс: 09:00 - 21:00"
+                - paragraph [ref=e67]: Без выходных
+          - generic [ref=e68]:
+            - heading "Как до нас добраться?" [level=3] [ref=e69]
+            - paragraph [ref=e70]: Наш автосервис находится в 5 минутах от метро "Технопарк". Удобный заезд с ТТК.
+            - generic [ref=e71]:
+              - button "Яндекс Навигатор" [ref=e72]:
+                - img [ref=e73]
+                - text: Яндекс Навигатор
+              - button "Написать в WhatsApp" [ref=e75]:
+                - img [ref=e76]
+                - text: Написать в WhatsApp
+          - generic [ref=e78]:
+            - img "Map" [ref=e79]
+            - generic [ref=e80]:
+              - img [ref=e81]
+              - text: Карта загрузится здесь
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - text: Ваше имя
+              - textbox "Иван Иванов" [ref=e89]
+            - generic [ref=e90]:
+              - text: Телефон
+              - textbox "+7 (___) ___-__-__" [ref=e91]
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - text: Услуга
+              - combobox [ref=e94]:
+                - option "Компьютерная диагностика" [selected]
+                - option "Техническое обслуживание (ТО)"
+                - option "Ремонт двигателя"
+                - option "Ремонт ходовой части"
+                - option "Тормозная система"
+                - option "Электрика и проводка"
+                - option "Кузовной ремонт"
+                - option "Заправка кондиционера"
+                - option "Другое"
+            - generic [ref=e95]:
+              - text: Марка автомобиля
+              - 'textbox "Например: Toyota Camry" [ref=e96]'
+          - generic [ref=e97]:
+            - text: Комментарий
+            - textbox "Опишите проблему или укажите удобное время..." [ref=e98]
+          - button "Записаться на сервис" [ref=e99]:
+            - text: Записаться на сервис
+            - img [ref=e100]
+          - paragraph [ref=e103]: Нажимая на кнопку, вы соглашаетесь с Политикой конфиденциальности.
+  - contentinfo [ref=e104]:
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - img [ref=e110]
+            - generic [ref=e113]: AUTOPRO
+          - paragraph [ref=e114]: Профессиональный автосервис в Москве. Ремонт любой сложности с гарантией результата.
+          - generic [ref=e115]:
+            - link "Instagram" [ref=e116] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e117]
+            - link "WhatsApp" [ref=e120] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e121]
+        - generic [ref=e123]:
+          - heading "Навигация" [level=4] [ref=e124]
+          - list [ref=e125]:
+            - listitem [ref=e126]:
+              - link "Главная" [ref=e127] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e128]:
+              - link "Услуги" [ref=e129] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e130]:
+              - link "О компании" [ref=e131] [cursor=pointer]:
+                - /url: /about
+        - generic [ref=e132]:
+          - heading "Услуги" [level=4] [ref=e133]
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - link "Компьютерная диагностика" [ref=e136] [cursor=pointer]:
+                - /url: /services/diagnostics
+            - listitem [ref=e137]:
+              - link "Техническое обслуживание" [ref=e138] [cursor=pointer]:
+                - /url: /services/maintenance
+            - listitem [ref=e139]:
+              - link "Ремонт двигателя" [ref=e140] [cursor=pointer]:
+                - /url: /services/engine-repair
+            - listitem [ref=e141]:
+              - link "Тормозная система" [ref=e142] [cursor=pointer]:
+                - /url: /services/brakes
+            - listitem [ref=e143]:
+              - link "Электрика" [ref=e144] [cursor=pointer]:
+                - /url: /services/electrical
+            - listitem [ref=e145]:
+              - link "Все услуги →" [ref=e146] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e147]:
+          - heading "Контакты" [level=4] [ref=e148]
+          - list [ref=e149]:
+            - listitem [ref=e150]:
+              - img [ref=e151]
+              - generic [ref=e154]: Москва, ул. Авторемонтная, д. 24, стр. 1
+            - listitem [ref=e155]:
+              - img [ref=e156]
+              - link "+7 (999) 123-45-67" [ref=e158] [cursor=pointer]:
+                - /url: tel:+79991234567
+            - listitem [ref=e159]:
+              - img [ref=e160]
+              - link "info@autopro-service.ru" [ref=e163] [cursor=pointer]:
+                - /url: mailto:info@autopro-service.ru
+      - generic [ref=e164]:
+        - paragraph [ref=e165]: © 2024 AUTOPRO. Все права защищены.
+        - generic [ref=e166]:
+          - link "Политика конфиденциальности" [ref=e167] [cursor=pointer]:
+            - /url: "#"
+          - link "Публичная оферта" [ref=e168] [cursor=pointer]:
+            - /url: "#"

@@ -1,0 +1,163 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "AUTOPRO" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e12]: AUTOPRO
+      - navigation [ref=e13]:
+        - link "Главная" [ref=e14] [cursor=pointer]:
+          - /url: /
+        - link "Услуги" [ref=e15] [cursor=pointer]:
+          - /url: /services
+        - link "О компании" [ref=e16] [cursor=pointer]:
+          - /url: /about
+        - link "Контакты" [ref=e17] [cursor=pointer]:
+          - /url: /contacts
+      - generic [ref=e18]:
+        - link "+7 (999) 123-45-67" [ref=e19] [cursor=pointer]:
+          - /url: tel:+79991234567
+          - img [ref=e20]
+          - generic [ref=e22]: +7 (999) 123-45-67
+        - link "Записаться" [ref=e23] [cursor=pointer]:
+          - /url: /contacts
+  - main [ref=e24]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - paragraph [ref=e29]: Наша история
+          - heading "О компании" [level=1] [ref=e30]
+          - paragraph [ref=e31]: AUTOPRO — команда профессионалов, увлечённых своим делом. Мы начали в 2009 году с небольшого бокса и выросли в полноценный сервисный центр, оснащённый по последнему слову техники.
+          - paragraph [ref=e32]: Наша миссия — качественный сервис, который не просто устраняет поломки, но и обеспечивает владельцу спокойствие и уверенность на дороге.
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - generic [ref=e35]: 15+
+              - generic [ref=e36]: Лет опыта
+            - generic [ref=e37]:
+              - generic [ref=e38]: "15"
+              - generic [ref=e39]: Мастеров
+            - generic [ref=e40]:
+              - generic [ref=e41]: 12 000+
+              - generic [ref=e42]: Клиентов
+            - generic [ref=e43]:
+              - generic [ref=e44]: 1 год
+              - generic [ref=e45]: Гарантия
+        - img "Автосервис AUTOPRO" [ref=e47]
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - heading "Наши ценности" [level=2] [ref=e51]
+          - heading "Почему нам доверяют" [level=3] [ref=e52]
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - img [ref=e56]
+            - heading "Честность" [level=4] [ref=e58]
+            - paragraph [ref=e59]: Никогда не навязываем лишние услуги. Согласовываем каждый этап ремонта и показываем замененные детали.
+          - generic [ref=e60]:
+            - img [ref=e62]
+            - heading "Качество" [level=4] [ref=e65]
+            - paragraph [ref=e66]: Только проверенные запчасти и высокоточное оборудование. Контроль качества на каждом этапе работ.
+          - generic [ref=e67]:
+            - img [ref=e69]
+            - heading "Ответственность" [level=4] [ref=e72]
+            - paragraph [ref=e73]: Несём полную ответственность за результат. Исправляем любые недочёты по гарантии без лишних вопросов.
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - heading "Команда" [level=2] [ref=e76]
+          - heading "Наши эксперты" [level=3] [ref=e77]
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - img "Михаил Волков" [ref=e81]
+              - generic [ref=e82]: Пример фото
+            - generic [ref=e83]:
+              - heading "Михаил Волков" [level=4] [ref=e84]
+              - paragraph [ref=e85]: Старший механик
+              - paragraph [ref=e86]: 15 лет опыта
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - img "Денис Антонов" [ref=e89]
+              - generic [ref=e90]: Пример фото
+            - generic [ref=e91]:
+              - heading "Денис Антонов" [level=4] [ref=e92]
+              - paragraph [ref=e93]: Диагност
+              - paragraph [ref=e94]: 10 лет опыта
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - img "Артем Морозов" [ref=e97]
+              - generic [ref=e98]: Пример фото
+            - generic [ref=e99]:
+              - heading "Артем Морозов" [level=4] [ref=e100]
+              - paragraph [ref=e101]: Моторист
+              - paragraph [ref=e102]: 12 лет опыта
+  - contentinfo [ref=e103]:
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - img [ref=e109]
+            - generic [ref=e112]: AUTOPRO
+          - paragraph [ref=e113]: Профессиональный автосервис в Москве. Ремонт любой сложности с гарантией результата.
+          - generic [ref=e114]:
+            - link "Instagram" [ref=e115] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e116]
+            - link "WhatsApp" [ref=e119] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e120]
+        - generic [ref=e122]:
+          - heading "Навигация" [level=4] [ref=e123]
+          - list [ref=e124]:
+            - listitem [ref=e125]:
+              - link "Главная" [ref=e126] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e127]:
+              - link "Услуги" [ref=e128] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e129]:
+              - link "О компании" [ref=e130] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e131]:
+              - link "Контакты" [ref=e132] [cursor=pointer]:
+                - /url: /contacts
+        - generic [ref=e133]:
+          - heading "Услуги" [level=4] [ref=e134]
+          - list [ref=e135]:
+            - listitem [ref=e136]:
+              - link "Компьютерная диагностика" [ref=e137] [cursor=pointer]:
+                - /url: /services/diagnostics
+            - listitem [ref=e138]:
+              - link "Техническое обслуживание" [ref=e139] [cursor=pointer]:
+                - /url: /services/maintenance
+            - listitem [ref=e140]:
+              - link "Ремонт двигателя" [ref=e141] [cursor=pointer]:
+                - /url: /services/engine-repair
+            - listitem [ref=e142]:
+              - link "Тормозная система" [ref=e143] [cursor=pointer]:
+                - /url: /services/brakes
+            - listitem [ref=e144]:
+              - link "Электрика" [ref=e145] [cursor=pointer]:
+                - /url: /services/electrical
+            - listitem [ref=e146]:
+              - link "Все услуги →" [ref=e147] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e148]:
+          - heading "Контакты" [level=4] [ref=e149]
+          - list [ref=e150]:
+            - listitem [ref=e151]:
+              - img [ref=e152]
+              - generic [ref=e155]: Москва, ул. Авторемонтная, д. 24, стр. 1
+            - listitem [ref=e156]:
+              - img [ref=e157]
+              - link "+7 (999) 123-45-67" [ref=e159] [cursor=pointer]:
+                - /url: tel:+79991234567
+            - listitem [ref=e160]:
+              - img [ref=e161]
+              - link "info@autopro-service.ru" [ref=e164] [cursor=pointer]:
+                - /url: mailto:info@autopro-service.ru
+      - generic [ref=e165]:
+        - paragraph [ref=e166]: © 2026 AUTOPRO. Все права защищены.
+        - generic [ref=e167]:
+          - link "Политика конфиденциальности" [ref=e168] [cursor=pointer]:
+            - /url: "#"
+          - link "Публичная оферта" [ref=e169] [cursor=pointer]:
+            - /url: "#"

@@ -1,0 +1,12 @@
+{
+  "name": "AutoPro Service",
+  "description": "Professional auto service center site with booking system, service presentation, and portfolio.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "lead-generation",
+    "online-booking",
+    "real-time-updates"
+  ]
+}

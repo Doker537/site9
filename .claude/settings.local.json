@@ -11,7 +11,9 @@
       "Bash(npx tsc:*)",
       "Bash(du -sh /c/Users/vbif5/WebstormProjects/site9/app/fonts/*.otf)",
       "Bash(du -ch /c/Users/vbif5/WebstormProjects/site9/app/fonts/*.otf)",
-      "Bash(xargs du *)"
+      "Bash(xargs du *)",
+      "Bash(sed -i \"s|'/images/|'./images/|g\" /c/Users/vbif5/WebstormProjects/site9/public/examples/Backery/src/data/mock.ts /c/Users/vbif5/WebstormProjects/site9/public/examples/Backery/src/pages/Portfolio.tsx)",
+      "Bash(sed -i 's|`/images/|`./images/|g' /c/Users/vbif5/WebstormProjects/site9/public/examples/Backery/src/pages/About.tsx)"
     ]
   }
 }

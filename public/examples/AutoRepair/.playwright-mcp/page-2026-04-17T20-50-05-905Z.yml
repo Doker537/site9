@@ -1,0 +1,167 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "AUTOPRO" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e12]: AUTOPRO
+      - navigation [ref=e13]:
+        - link "Главная" [ref=e14] [cursor=pointer]:
+          - /url: /
+        - link "Услуги" [ref=e15] [cursor=pointer]:
+          - /url: /services
+        - link "О компании" [ref=e16] [cursor=pointer]:
+          - /url: /about
+        - link "Контакты" [ref=e17] [cursor=pointer]:
+          - /url: /contacts
+      - generic [ref=e18]:
+        - link "+7 (999) 123-45-67" [ref=e19] [cursor=pointer]:
+          - /url: tel:+79991234567
+          - img [ref=e20]
+          - generic [ref=e22]: +7 (999) 123-45-67
+        - link "Записаться" [ref=e23] [cursor=pointer]:
+          - /url: /contacts
+  - main [ref=e24]:
+    - generic [ref=e26]:
+      - navigation [ref=e27]:
+        - link "Услуги" [ref=e28] [cursor=pointer]:
+          - /url: /services
+        - img [ref=e29]
+        - generic [ref=e31]: Компьютерная диагностика
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - heading "Компьютерная диагностика" [level=1] [ref=e35]
+            - paragraph [ref=e36]: Профессиональная диагностика электронных систем автомобиля с использованием современного дилерского оборудования. Выявление ошибок, проверка параметров работы двигателя, трансмиссии и систем безопасности.
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - generic [ref=e39]:
+                - img [ref=e40]
+                - text: Время выполнения
+              - paragraph [ref=e43]: от 30 мин
+            - generic [ref=e44]:
+              - generic [ref=e45]:
+                - img [ref=e46]
+                - text: Когда требуется?
+              - paragraph [ref=e50]: При первых признаках неисправности или по регламенту.
+          - generic [ref=e51]:
+            - heading "Часто задаваемые вопросы" [level=3] [ref=e52]
+            - generic [ref=e53]:
+              - generic [ref=e54]:
+                - heading "Как часто нужно делать диагностику?" [level=4] [ref=e55]
+                - paragraph [ref=e56]: Рекомендуется проводить диагностику каждые 15 000 км или при появлении индикатора Check Engine.
+              - generic [ref=e57]:
+                - heading "Сколько времени занимает процесс?" [level=4] [ref=e58]
+                - paragraph [ref=e59]: Обычно от 30 до 60 минут в зависимости от сложности систем.
+          - generic [ref=e60]:
+            - img [ref=e61]
+            - generic [ref=e63]:
+              - heading "Важно знать" [level=4] [ref=e64]
+              - paragraph [ref=e65]: Стоимость может варьироваться в зависимости от марки автомобиля и сложности работ. Итоговая цена озвучивается после диагностики.
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - text: Стоимость
+            - generic [ref=e70]: от 1 500 ₽
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - generic [ref=e73]:
+                - text: Ваше имя
+                - textbox "Иван Иванов" [ref=e74]
+              - generic [ref=e75]:
+                - text: Телефон
+                - textbox "+7 (___) ___-__-__" [ref=e76]
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - text: Услуга
+                - combobox [ref=e79]:
+                  - option "Компьютерная диагностика" [selected]
+                  - option "Техническое обслуживание (ТО)"
+                  - option "Ремонт двигателя"
+                  - option "Ремонт ходовой части"
+                  - option "Тормозная система"
+                  - option "Электрика и проводка"
+                  - option "Кузовной ремонт"
+                  - option "Заправка кондиционера"
+                  - option "Другое"
+              - generic [ref=e80]:
+                - text: Марка автомобиля
+                - 'textbox "Например: Toyota Camry" [ref=e81]'
+            - generic [ref=e82]:
+              - text: Комментарий
+              - textbox "Опишите проблему или укажите удобное время..." [ref=e83]
+            - button "Записаться на сервис" [ref=e84]:
+              - text: Записаться на сервис
+              - img [ref=e85]
+            - paragraph [ref=e88]: Нажимая на кнопку, вы соглашаетесь с Политикой конфиденциальности.
+  - contentinfo [ref=e89]:
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - generic [ref=e98]: AUTOPRO
+          - paragraph [ref=e99]: Профессиональный автосервис в Москве. Ремонт любой сложности с гарантией результата.
+          - generic [ref=e100]:
+            - link "Instagram" [ref=e101] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e102]
+            - link "WhatsApp" [ref=e105] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e106]
+        - generic [ref=e108]:
+          - heading "Навигация" [level=4] [ref=e109]
+          - list [ref=e110]:
+            - listitem [ref=e111]:
+              - link "Главная" [ref=e112] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e113]:
+              - link "Услуги" [ref=e114] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e115]:
+              - link "О компании" [ref=e116] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e117]:
+              - link "Контакты" [ref=e118] [cursor=pointer]:
+                - /url: /contacts
+        - generic [ref=e119]:
+          - heading "Услуги" [level=4] [ref=e120]
+          - list [ref=e121]:
+            - listitem [ref=e122]:
+              - link "Компьютерная диагностика" [ref=e123] [cursor=pointer]:
+                - /url: /services/diagnostics
+            - listitem [ref=e124]:
+              - link "Техническое обслуживание" [ref=e125] [cursor=pointer]:
+                - /url: /services/maintenance
+            - listitem [ref=e126]:
+              - link "Ремонт двигателя" [ref=e127] [cursor=pointer]:
+                - /url: /services/engine-repair
+            - listitem [ref=e128]:
+              - link "Тормозная система" [ref=e129] [cursor=pointer]:
+                - /url: /services/brakes
+            - listitem [ref=e130]:
+              - link "Электрика" [ref=e131] [cursor=pointer]:
+                - /url: /services/electrical
+            - listitem [ref=e132]:
+              - link "Все услуги →" [ref=e133] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e134]:
+          - heading "Контакты" [level=4] [ref=e135]
+          - list [ref=e136]:
+            - listitem [ref=e137]:
+              - img [ref=e138]
+              - generic [ref=e141]: Москва, ул. Авторемонтная, д. 24, стр. 1
+            - listitem [ref=e142]:
+              - img [ref=e143]
+              - link "+7 (999) 123-45-67" [ref=e145] [cursor=pointer]:
+                - /url: tel:+79991234567
+            - listitem [ref=e146]:
+              - img [ref=e147]
+              - link "info@autopro-service.ru" [ref=e150] [cursor=pointer]:
+                - /url: mailto:info@autopro-service.ru
+      - generic [ref=e151]:
+        - paragraph [ref=e152]: © 2026 AUTOPRO. Все права защищены.
+        - generic [ref=e153]:
+          - link "Политика конфиденциальности" [ref=e154] [cursor=pointer]:
+            - /url: "#"
+          - link "Публичная оферта" [ref=e155] [cursor=pointer]:
+            - /url: "#"

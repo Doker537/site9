@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+
+  --color-brand-primary: #FF3B30;
+  --color-brand-secondary: #007AFF;
+  --color-brand-accent: #FF9500;
+
+  --color-bg-main: #0A0A0B;
+  --color-bg-card: #151517;
+  --color-bg-muted: #1C1C1E;
+
+  --ease-smooth: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-bg-main text-gray-100 antialiased selection:bg-brand-primary selection:text-white;
+  }
+}
+
+.glass-card {
+  @apply bg-bg-card/80 backdrop-blur-md border border-white/5;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-linear-to-r from-white to-white/60;
+}
+
+.btn-primary {
+  @apply bg-brand-primary hover:bg-red-700 text-white font-medium py-3 px-8 rounded-lg transition-all duration-200 active:scale-95 flex items-center justify-center gap-2;
+}
+
+.btn-outline {
+  @apply border border-white/10 hover:border-white/30 hover:bg-white/5 text-white font-medium py-3 px-8 rounded-lg transition-all duration-200 active:scale-95 flex items-center justify-center gap-2;
+}

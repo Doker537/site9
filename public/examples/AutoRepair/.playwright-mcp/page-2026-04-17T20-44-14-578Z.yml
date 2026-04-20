@@ -1,0 +1,93 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "AUTOPRO" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e12]: AUTOPRO
+      - navigation [ref=e13]:
+        - link "Главная" [ref=e14] [cursor=pointer]:
+          - /url: /
+        - link "Услуги" [ref=e15] [cursor=pointer]:
+          - /url: /services
+        - link "О компании" [ref=e16] [cursor=pointer]:
+          - /url: /about
+        - link "Контакты" [ref=e17] [cursor=pointer]:
+          - /url: /contacts
+      - generic [ref=e18]:
+        - link "+7 (999) 123-45-67" [ref=e19] [cursor=pointer]:
+          - /url: tel:+79991234567
+          - img [ref=e20]
+          - generic [ref=e22]: +7 (999) 123-45-67
+        - link "Записаться" [ref=e23] [cursor=pointer]:
+          - /url: /contacts
+  - main [ref=e24]
+  - contentinfo [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - img [ref=e31]
+            - generic [ref=e34]: AUTOPRO
+          - paragraph [ref=e35]: Профессиональный автосервис в Москве. Ремонт любой сложности с гарантией результата.
+          - generic [ref=e36]:
+            - link "Instagram" [ref=e37] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e38]
+            - link "WhatsApp" [ref=e41] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e42]
+        - generic [ref=e44]:
+          - heading "Навигация" [level=4] [ref=e45]
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - link "Главная" [ref=e48] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e49]:
+              - link "Услуги" [ref=e50] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e51]:
+              - link "О компании" [ref=e52] [cursor=pointer]:
+                - /url: /about
+        - generic [ref=e53]:
+          - heading "Услуги" [level=4] [ref=e54]
+          - list [ref=e55]:
+            - listitem [ref=e56]:
+              - link "Компьютерная диагностика" [ref=e57] [cursor=pointer]:
+                - /url: /services/diagnostics
+            - listitem [ref=e58]:
+              - link "Техническое обслуживание" [ref=e59] [cursor=pointer]:
+                - /url: /services/maintenance
+            - listitem [ref=e60]:
+              - link "Ремонт двигателя" [ref=e61] [cursor=pointer]:
+                - /url: /services/engine-repair
+            - listitem [ref=e62]:
+              - link "Тормозная система" [ref=e63] [cursor=pointer]:
+                - /url: /services/brakes
+            - listitem [ref=e64]:
+              - link "Электрика" [ref=e65] [cursor=pointer]:
+                - /url: /services/electrical
+            - listitem [ref=e66]:
+              - link "Все услуги →" [ref=e67] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e68]:
+          - heading "Контакты" [level=4] [ref=e69]
+          - list [ref=e70]:
+            - listitem [ref=e71]:
+              - img [ref=e72]
+              - generic [ref=e75]: Москва, ул. Авторемонтная, д. 24, стр. 1
+            - listitem [ref=e76]:
+              - img [ref=e77]
+              - link "+7 (999) 123-45-67" [ref=e79] [cursor=pointer]:
+                - /url: tel:+79991234567
+            - listitem [ref=e80]:
+              - img [ref=e81]
+              - link "info@autopro-service.ru" [ref=e84] [cursor=pointer]:
+                - /url: mailto:info@autopro-service.ru
+      - generic [ref=e85]:
+        - paragraph [ref=e86]: © 2024 AUTOPRO. Все права защищены.
+        - generic [ref=e87]:
+          - link "Политика конфиденциальности" [ref=e88] [cursor=pointer]:
+            - /url: "#"
+          - link "Публичная оферта" [ref=e89] [cursor=pointer]:
+            - /url: "#"

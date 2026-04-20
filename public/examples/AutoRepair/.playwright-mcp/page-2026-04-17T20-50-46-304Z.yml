@@ -1,0 +1,309 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "AUTOPRO" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e12]: AUTOPRO
+      - navigation [ref=e13]:
+        - link "Главная" [ref=e14] [cursor=pointer]:
+          - /url: /
+        - link "Услуги" [ref=e15] [cursor=pointer]:
+          - /url: /services
+        - link "О компании" [ref=e16] [cursor=pointer]:
+          - /url: /about
+        - link "Контакты" [ref=e17] [cursor=pointer]:
+          - /url: /contacts
+      - generic [ref=e18]:
+        - link "+7 (999) 123-45-67" [ref=e19] [cursor=pointer]:
+          - /url: tel:+79991234567
+          - img [ref=e20]
+          - generic [ref=e22]: +7 (999) 123-45-67
+        - link "Записаться" [ref=e23] [cursor=pointer]:
+          - /url: /contacts
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - img [ref=e28]
+        - generic [ref=e32]:
+          - generic [ref=e33]: Принимаем заявки — работаем без выходных
+          - heading "Ремонт авто профессионально с гарантией" [level=1] [ref=e37]:
+            - text: Ремонт авто
+            - text: профессионально с гарантией
+          - paragraph [ref=e38]: Профессиональный автосервис в Москве. Бесплатная диагностика при ремонте. Честные цены, квалифицированные мастера и гарантия до 1 года.
+          - generic [ref=e39]:
+            - link "Записаться бесплатно" [ref=e40] [cursor=pointer]:
+              - /url: /contacts
+              - text: Записаться бесплатно
+              - img [ref=e41]
+            - link "Позвонить" [ref=e43] [cursor=pointer]:
+              - /url: tel:+79991234567
+              - img [ref=e44]
+              - text: Позвонить
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - img [ref=e48]
+              - generic [ref=e51]: Гарантия до 1 года
+            - generic [ref=e52]:
+              - img [ref=e53]
+              - generic [ref=e56]: Запчасти в наличии
+            - generic [ref=e57]:
+              - img [ref=e58]
+              - generic [ref=e61]: Опытные мастера
+            - generic [ref=e62]:
+              - img [ref=e63]
+              - generic [ref=e66]: Срочный ремонт
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - img [ref=e70]
+          - generic [ref=e73]: 15+
+          - generic [ref=e74]: лет на рынке
+        - generic [ref=e75]:
+          - img [ref=e76]
+          - generic [ref=e78]: 12 000+
+          - generic [ref=e79]: автомобилей
+        - generic [ref=e80]:
+          - img [ref=e81]
+          - generic [ref=e86]: 98%
+          - generic [ref=e87]: довольных клиентов
+        - generic [ref=e88]:
+          - img [ref=e89]
+          - generic [ref=e91]: "4.9"
+          - generic [ref=e92]: средняя оценка
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - heading "Почему выбирают нас" [level=2] [ref=e95]
+          - heading "Наши преимущества" [level=3] [ref=e96]
+        - generic [ref=e97]:
+          - generic [ref=e98]:
+            - img [ref=e100]
+            - heading "Гарантия до 1 года" [level=3] [ref=e103]
+            - paragraph [ref=e104]: Мы уверены в качестве своих работ и предоставляем официальную гарантию.
+          - generic [ref=e105]:
+            - img [ref=e107]
+            - heading "Опытные мастера" [level=3] [ref=e110]
+            - paragraph [ref=e111]: Стаж наших механиков — не менее 5 лет работы с иномарками.
+          - generic [ref=e112]:
+            - img [ref=e114]
+            - heading "Современное оборудование" [level=3] [ref=e117]
+            - paragraph [ref=e118]: Используем дилерские сканеры и сертифицированные инструменты.
+          - generic [ref=e119]:
+            - img [ref=e121]
+            - heading "Запчасти в наличии" [level=3] [ref=e124]
+            - paragraph [ref=e125]: Свой склад запчастей позволяет сократить сроки ремонта.
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - generic [ref=e128]:
+            - heading "Что мы делаем" [level=2] [ref=e129]
+            - heading "Наши услуги" [level=3] [ref=e130]
+          - link "Все услуги" [ref=e131] [cursor=pointer]:
+            - /url: /services
+            - text: Все услуги
+            - img [ref=e132]
+        - generic [ref=e134]:
+          - link "Компьютерная диагностика Полная проверка всех электронных систем автомобиля дилерским сканером. от 1 500 ₽ от 30 мин" [ref=e136] [cursor=pointer]:
+            - /url: /services/diagnostics
+            - generic [ref=e137]:
+              - img [ref=e139]
+              - img [ref=e142]
+            - heading "Компьютерная диагностика" [level=3] [ref=e145]
+            - paragraph [ref=e146]: Полная проверка всех электронных систем автомобиля дилерским сканером.
+            - generic [ref=e147]:
+              - generic [ref=e148]: от 1 500 ₽
+              - generic [ref=e149]: от 30 мин
+          - link "Техническое обслуживание (ТО) Плановая замена масла, фильтров и комплексная проверка всех систем. от 5 000 ₽ 1.5 - 3 часа" [ref=e151] [cursor=pointer]:
+            - /url: /services/maintenance
+            - generic [ref=e152]:
+              - img [ref=e154]
+              - img [ref=e156]
+            - heading "Техническое обслуживание (ТО)" [level=3] [ref=e159]
+            - paragraph [ref=e160]: Плановая замена масла, фильтров и комплексная проверка всех систем.
+            - generic [ref=e161]:
+              - generic [ref=e162]: от 5 000 ₽
+              - generic [ref=e163]: 1.5 - 3 часа
+          - link "Ремонт двигателя Капитальный и текущий ремонт любой сложности, замена ГРМ. от 15 000 ₽ от 3 дней" [ref=e165] [cursor=pointer]:
+            - /url: /services/engine-repair
+            - generic [ref=e166]:
+              - img [ref=e168]
+              - img [ref=e179]
+            - heading "Ремонт двигателя" [level=3] [ref=e182]
+            - paragraph [ref=e183]: Капитальный и текущий ремонт любой сложности, замена ГРМ.
+            - generic [ref=e184]:
+              - generic [ref=e185]: от 15 000 ₽
+              - generic [ref=e186]: от 3 дней
+          - link "Ремонт ходовой части Замена амортизаторов, рычагов, подшипников. Сход-развал. от 2 000 ₽ от 1 часа" [ref=e188] [cursor=pointer]:
+            - /url: /services/suspension-repair
+            - generic [ref=e189]:
+              - img [ref=e191]
+              - img [ref=e193]
+            - heading "Ремонт ходовой части" [level=3] [ref=e196]
+            - paragraph [ref=e197]: Замена амортизаторов, рычагов, подшипников. Сход-развал.
+            - generic [ref=e198]:
+              - generic [ref=e199]: от 2 000 ₽
+              - generic [ref=e200]: от 1 часа
+      - generic [ref=e202]:
+        - generic [ref=e203]:
+          - heading "Просто и быстро" [level=2] [ref=e204]
+          - heading "Как это работает" [level=3] [ref=e205]
+        - generic [ref=e206]:
+          - generic [ref=e207]:
+            - generic [ref=e210]: "01"
+            - generic [ref=e211]:
+              - heading "Заявка" [level=4] [ref=e212]
+              - paragraph [ref=e213]: Оставьте заявку онлайн или позвоните — ответим за 15 минут.
+          - generic [ref=e214]:
+            - generic [ref=e217]: "02"
+            - generic [ref=e218]:
+              - heading "Диагностика" [level=4] [ref=e219]
+              - paragraph [ref=e220]: Бесплатно проверяем автомобиль и называем точную стоимость.
+          - generic [ref=e221]:
+            - generic [ref=e224]: "03"
+            - generic [ref=e225]:
+              - heading "Ремонт" [level=4] [ref=e226]
+              - paragraph [ref=e227]: Выполняем работы в согласованные сроки с оригинальными запчастями.
+          - generic [ref=e228]:
+            - generic [ref=e231]: "04"
+            - generic [ref=e232]:
+              - heading "Гарантия" [level=4] [ref=e233]
+              - paragraph [ref=e234]: Выдаём письменную гарантию до 1 года на все виды работ.
+      - generic [ref=e237]:
+        - generic [ref=e238]:
+          - generic [ref=e239]: Акция
+          - heading "Бесплатная диагностика при любом ремонте" [level=3] [ref=e240]:
+            - text: Бесплатная диагностика
+            - text: при любом ремонте
+          - paragraph [ref=e241]: Запишитесь сегодня и получите полную компьютерную диагностику бесплатно. Предложение действует при заказе любой услуги.
+        - generic [ref=e242]:
+          - link "Записаться" [ref=e243] [cursor=pointer]:
+            - /url: /contacts
+            - text: Записаться
+            - img [ref=e244]
+          - link "Позвонить" [ref=e246] [cursor=pointer]:
+            - /url: tel:+79991234567
+            - img [ref=e247]
+            - text: Позвонить
+      - generic [ref=e250]:
+        - generic:
+          - img
+        - generic [ref=e251]:
+          - generic [ref=e252]:
+            - heading "Запишитесь на бесплатную диагностику" [level=2] [ref=e253]:
+              - text: Запишитесь на
+              - text: бесплатную диагностику
+            - paragraph [ref=e254]: Оставьте заявку — мастер перезвонит за 15 минут, проконсультирует и запишет на удобное время.
+            - generic [ref=e255]:
+              - generic [ref=e256]:
+                - img [ref=e258]
+                - generic [ref=e261]: Перезвоним за 15 минут
+              - generic [ref=e262]:
+                - img [ref=e264]
+                - generic [ref=e267]: Гарантия на все работы
+              - generic [ref=e268]:
+                - img [ref=e270]
+                - generic [ref=e273]: Прозрачная смета до начала работ
+              - generic [ref=e274]:
+                - img [ref=e276]
+                - generic [ref=e278]: Онлайн-отчёт о ходе ремонта
+          - generic [ref=e280]:
+            - generic [ref=e281]:
+              - generic [ref=e282]:
+                - text: Ваше имя
+                - textbox "Иван Иванов" [ref=e283]
+              - generic [ref=e284]:
+                - text: Телефон
+                - textbox "+7 (___) ___-__-__" [ref=e285]
+            - generic [ref=e286]:
+              - generic [ref=e287]:
+                - text: Услуга
+                - combobox [ref=e288]:
+                  - option "Компьютерная диагностика" [selected]
+                  - option "Техническое обслуживание (ТО)"
+                  - option "Ремонт двигателя"
+                  - option "Ремонт ходовой части"
+                  - option "Тормозная система"
+                  - option "Электрика и проводка"
+                  - option "Кузовной ремонт"
+                  - option "Заправка кондиционера"
+                  - option "Другое"
+              - generic [ref=e289]:
+                - text: Марка автомобиля
+                - 'textbox "Например: Toyota Camry" [ref=e290]'
+            - generic [ref=e291]:
+              - text: Комментарий
+              - textbox "Опишите проблему или укажите удобное время..." [ref=e292]
+            - button "Записаться на сервис" [ref=e293]:
+              - text: Записаться на сервис
+              - img [ref=e294]
+            - paragraph [ref=e297]: Нажимая на кнопку, вы соглашаетесь с Политикой конфиденциальности.
+  - contentinfo [ref=e298]:
+    - generic [ref=e299]:
+      - generic [ref=e300]:
+        - generic [ref=e301]:
+          - generic [ref=e302]:
+            - img [ref=e304]
+            - generic [ref=e307]: AUTOPRO
+          - paragraph [ref=e308]: Профессиональный автосервис в Москве. Ремонт любой сложности с гарантией результата.
+          - generic [ref=e309]:
+            - link "Instagram" [ref=e310] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e311]
+            - link "WhatsApp" [ref=e314] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e315]
+        - generic [ref=e317]:
+          - heading "Навигация" [level=4] [ref=e318]
+          - list [ref=e319]:
+            - listitem [ref=e320]:
+              - link "Главная" [ref=e321] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e322]:
+              - link "Услуги" [ref=e323] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e324]:
+              - link "О компании" [ref=e325] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e326]:
+              - link "Контакты" [ref=e327] [cursor=pointer]:
+                - /url: /contacts
+        - generic [ref=e328]:
+          - heading "Услуги" [level=4] [ref=e329]
+          - list [ref=e330]:
+            - listitem [ref=e331]:
+              - link "Компьютерная диагностика" [ref=e332] [cursor=pointer]:
+                - /url: /services/diagnostics
+            - listitem [ref=e333]:
+              - link "Техническое обслуживание" [ref=e334] [cursor=pointer]:
+                - /url: /services/maintenance
+            - listitem [ref=e335]:
+              - link "Ремонт двигателя" [ref=e336] [cursor=pointer]:
+                - /url: /services/engine-repair
+            - listitem [ref=e337]:
+              - link "Тормозная система" [ref=e338] [cursor=pointer]:
+                - /url: /services/brakes
+            - listitem [ref=e339]:
+              - link "Электрика" [ref=e340] [cursor=pointer]:
+                - /url: /services/electrical
+            - listitem [ref=e341]:
+              - link "Все услуги →" [ref=e342] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e343]:
+          - heading "Контакты" [level=4] [ref=e344]
+          - list [ref=e345]:
+            - listitem [ref=e346]:
+              - img [ref=e347]
+              - generic [ref=e350]: Москва, ул. Авторемонтная, д. 24, стр. 1
+            - listitem [ref=e351]:
+              - img [ref=e352]
+              - link "+7 (999) 123-45-67" [ref=e354] [cursor=pointer]:
+                - /url: tel:+79991234567
+            - listitem [ref=e355]:
+              - img [ref=e356]
+              - link "info@autopro-service.ru" [ref=e359] [cursor=pointer]:
+                - /url: mailto:info@autopro-service.ru
+      - generic [ref=e360]:
+        - paragraph [ref=e361]: © 2026 AUTOPRO. Все права защищены.
+        - generic [ref=e362]:
+          - link "Политика конфиденциальности" [ref=e363] [cursor=pointer]:
+            - /url: "#"
+          - link "Публичная оферта" [ref=e364] [cursor=pointer]:
+            - /url: "#"
